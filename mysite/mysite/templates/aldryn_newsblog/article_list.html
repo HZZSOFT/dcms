@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% load i18n apphooks_config_tags cms_tags sekizai_tags staticfiles thumbnail %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+
+
+        <!-- Blog Entries Column -->
+        <div class="col-md-8">
+                {% block newsblog_content %}
+
+                    {% for article in article_list %}
+                    <div class="card mb-4">
+                        <a href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}">
+                            <img class="card-img-top" src="{% thumbnail article.featured_image 800x450 crop subject_location=article.featured_image.subject_location %}" alt="{{ article.featured_image.alt }}"/>
+                        </a>
+                        <div class="card-body">
+                            <h3>
+                                {% if not detail_view %}
+                                    <a href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}">{% render_model article "title" %}</a>
+                                {% else %}
+                                    {% render_model article "title" %}
+                                {% endif %}
+                            </h3>
+                            {% render_model article "lead_in" %}
+
+                            {# include "aldryn_newsblog/includes/article.html" #}
+                             <a class="btn btn-primary" href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}"> Read More →</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                             Posted on {{ article.publishing_date|date }} by
+
+                                {% include "aldryn_newsblog/includes/author.html" with author=article.author %}
+
+                            </div>
+                    </div>
+                    {% empty %}
+                        <p>{% trans "No items available" %}</p>
+                    {% endfor %}
+
+                    {% include "aldryn_newsblog/includes/pagination.html" %}
+                {% endblock %}
+        </div>
+
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4">
+
+          <!-- Search Widget -->
+          <div class="card mb-4">
+            <h5 class="card-header">Search</h5>
+            <div class="card-body">
+                <div class="input-group">
+                    {% static_placeholder "Newsblog_Search" %}
+                </div>
+            </div>
+          </div>
+ <!-- Side Widget -->
+
+            {% static_placeholder "Newsblog_Sidebar" %}
+
+
+{% endblock content %}

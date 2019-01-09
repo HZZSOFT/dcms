@@ -1,0 +1,11 @@
+{% load i18n %}
+
+{# submission of this form will forward to "includes/search_results.html" #}
+{# this form can also be submitted using ajax and "includes/search_results.html" is returned #}
+<form action="{{ query_url }}" method="get" style="display:inherit;width:100%;">
+    <label for="search-plugin-{{ instance.pk }}">{% trans "" %}</label>
+    <input type="text" class="form-control" name="q" id="search-plugin-{{ instance.pk }}" placeholder="{% trans 'Search for...' %}">
+
+    <input type="hidden" name="max_articles" value="{{ instance.max_articles }}">
+    <button class="btn btn-secondary" type="submit">{% trans "Go!" %}</button>
+</form>
