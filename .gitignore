@@ -102,3 +102,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+mysite/project.db

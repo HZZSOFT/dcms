@@ -5,11 +5,12 @@
     {{ article.title }} - {{ block.super }}
 {% endblock %}
 
-{% block newsblog_content %}
 
+{% block newsblog_content %}
+<div class="col-md-8">
     {% include "aldryn_newsblog/includes/article.html" with detail_view="true" %}
     
-    {% static_placeholder "newsblog_social" %}
+    
 
     <ul>
         {% if prev_article %}
@@ -20,4 +21,23 @@
             <li><a href="{{ next_article.get_absolute_url }}">{% trans "Next Article" %}</a></li>
         {% endif %}
     </ul>
+     <!-- Side Widget -->
+        {% static_placeholder "Newsblog_Related" %}
+    </div>
+
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4">
+
+          <!-- Search Widget -->
+          <div class="card mb-4">
+            <h5 class="card-header">Search</h5>
+            <div class="card-body">
+                <div class="input-group">
+                    {% static_placeholder "Newsblog_Search" %}
+                </div>
+            </div>
+          </div>
+       
 {% endblock %}
+
+
