@@ -37,28 +37,28 @@ msgstr ""
 #: admin.py:128
 #| msgid "meta description"
 msgid "Meta Options"
-msgstr ""
+msgstr "تنظمیمات متا تگ"
 
 #: admin.py:137
 msgid "Advanced Settings"
-msgstr ""
+msgstr "تنظیمات پیشرفته"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/article_detail.html:18
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/article_detail.html:20
 #: templates/aldryn_newsblog/article_detail.html:15
 msgid "Previous Article"
-msgstr ""
+msgstr "مقاله قبلی"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/article_detail.html:22
 #: templates/aldryn_newsblog/article_detail.html:17
 msgid "Back to Overview"
-msgstr ""
+msgstr "بازگشت به لیست"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/article_detail.html:24
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/article_detail.html:26
 #: templates/aldryn_newsblog/article_detail.html:19
 msgid "Next Article"
-msgstr ""
+msgstr "مقاله بعدی"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/article_list.html:9
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/archive.html:21
@@ -76,21 +76,21 @@ msgstr ""
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/includes/pagination.html:8
 msgid "First"
-msgstr ""
+msgstr "اولین"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/includes/pagination.html:14
 #: templates/aldryn_newsblog/includes/pagination.html:8
 msgid "Previous"
-msgstr ""
+msgstr "قبلی"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/includes/pagination.html:47
 #: templates/aldryn_newsblog/includes/pagination.html:42
 msgid "Next"
-msgstr ""
+msgstr "بعدی"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/includes/pagination.html:53
 msgid "Last"
-msgstr ""
+msgstr "آخرین"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/includes/search_results.html:4
 #: templates/aldryn_newsblog/includes/search_results.html:6
@@ -101,7 +101,7 @@ msgstr ""
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/includes/search_results.html:19
 #: templates/aldryn_newsblog/includes/search_results.html:21
 msgid "No articles found"
-msgstr ""
+msgstr "مقاله ای یافت نشد"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/includes/search_results.html:21
 #: templates/aldryn_newsblog/includes/search_results.html:23
@@ -111,29 +111,29 @@ msgstr ""
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/article_search.html:8
 #: templates/aldryn_newsblog/plugins/article_search.html:6
 msgid "Keyword search"
-msgstr ""
+msgstr "جستجوی کلمات کلیدی"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/article_search.html:9
 #: templates/aldryn_newsblog/plugins/article_search.html:7
 msgid "Keyword"
-msgstr ""
+msgstr "کلمه کلیدی"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/article_search.html:11
 #: templates/aldryn_newsblog/plugins/article_search.html:10
 msgid "Go"
-msgstr ""
+msgstr "برو"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/categories.html:6
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/tags.html:6
 #: templates/aldryn_newsblog/plugins/categories.html:5
 #: templates/aldryn_newsblog/plugins/tags.html:5
 msgid "All"
-msgstr ""
+msgstr "همه"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/related_articles.html:9
 #: templates/aldryn_newsblog/plugins/related_articles.html:8
 msgid "by"
-msgstr ""
+msgstr "توسط"
 
 #: cms_appconfig.py:19
 msgid "the-eagle-has-landed/"
@@ -173,11 +173,11 @@ msgstr ""
 
 #: cms_appconfig.py:42
 msgid "application title"
-msgstr ""
+msgstr "عنوان اپلیکیشن"
 
 #: cms_appconfig.py:45
 msgid "permalink type"
-msgstr ""
+msgstr "نوع لینکدهی"
 
 #: cms_appconfig.py:47
 msgid ""
@@ -187,7 +187,7 @@ msgstr ""
 
 #: cms_appconfig.py:51
 msgid "non-permalink handling"
-msgstr ""
+msgstr "وقتی لینک یافت نشد"
 
 #: cms_appconfig.py:54
 msgid "How to handle non-permalink urls?"
@@ -195,7 +195,7 @@ msgstr ""
 
 #: cms_appconfig.py:57
 msgid "Paginate size"
-msgstr ""
+msgstr "تعداد در هر صفحه"
 
 #: cms_appconfig.py:60
 msgid "When paginating list views, how many articles per page?"
@@ -239,11 +239,11 @@ msgstr ""
 
 #: cms_appconfig.py:94
 msgid "Auto-create authors?"
-msgstr ""
+msgstr "ایجاد خودکار نویسنده؟"
 
 #: cms_appconfig.py:96
 msgid "Automatically create authors from logged-in user?"
-msgstr ""
+msgstr "ایجاد خودکار نویسنده از کاربر جاری"
 
 #: cms_appconfig.py:101
 msgid "Include in search index?"
@@ -269,7 +269,7 @@ msgstr ""
 
 #: cms_appconfig.py:151
 msgid "Post published by default"
-msgstr ""
+msgstr "مطلب به صورت پیشفرض منتشر شود"
 
 #: cms_apps.py:15
 msgid "NewsBlog"
@@ -277,19 +277,19 @@ msgstr ""
 
 #: cms_plugins.py:66
 msgid "Archive"
-msgstr ""
+msgstr "آرشیو"
 
 #: cms_plugins.py:86
 msgid "Article Search"
-msgstr ""
+msgstr "جستجوی مقاله"
 
 #: cms_plugins.py:100
 msgid "Authors"
-msgstr ""
+msgstr "نویسندگان"
 
 #: cms_plugins.py:118
 msgid "Categories"
-msgstr ""
+msgstr "دسته بندی ها"
 
 #: cms_plugins.py:135
 msgid "Featured Articles"
@@ -297,39 +297,39 @@ msgstr ""
 
 #: cms_plugins.py:149
 msgid "Latest Articles"
-msgstr ""
+msgstr "آخرین مقالات"
 
 #: cms_plugins.py:163
 msgid "Related Articles"
-msgstr ""
+msgstr "مقالات مرتبط"
 
 #: cms_plugins.py:191
 msgid "Tags"
-msgstr ""
+msgstr "کلمات کلیدی"
 
 #: cms_toolbars.py:92
 msgid "Configure addon"
-msgstr ""
+msgstr "تنظیمات افزونه"
 
 #: cms_toolbars.py:103
 msgid "Article list"
-msgstr ""
+msgstr "لیست مقالات"
 
 #: cms_toolbars.py:110
 msgid "Add new article"
-msgstr ""
+msgstr "مقاله جدید"
 
 #: cms_toolbars.py:118
 msgid "Edit this article"
-msgstr ""
+msgstr "ویرایش این مقاله"
 
 #: cms_toolbars.py:126
 msgid "Delete this article"
-msgstr ""
+msgstr "حذف این مقاله"
 
 #: cms_wizards.py:68
 msgid "Content"
-msgstr ""
+msgstr "محتوا"
 
 #: cms_wizards.py:72
 msgid ""
@@ -365,7 +365,7 @@ msgstr ""
 
 #: models.py:88
 msgid "title"
-msgstr ""
+msgstr "عنوان"
 
 #: models.py:90
 msgid "slug"
@@ -379,17 +379,17 @@ msgstr ""
 
 #: models.py:99
 msgid "lead"
-msgstr ""
+msgstr "خلاصه"
 
 #: models.py:101
 msgid ""
 "The lead gives the reader the main idea of the story, this is useful in "
 "overviews, lists or as an introduction to your article."
-msgstr ""
+msgstr "خلاصه ای از مقاله را بنویسید، در لیست یا خلاصه ی مقاله ی شما نمای داده می شود."
 
 #: models.py:108
 msgid "meta title"
-msgstr ""
+msgstr "عنوان متاتگ"
 
 #: models.py:111
 msgid "meta description"
@@ -397,15 +397,15 @@ msgstr ""
 
 #: models.py:113
 msgid "meta keywords"
-msgstr ""
+msgstr "کلمات کلیدی متاتگ"
 
 #: models.py:122
 msgid "author"
-msgstr ""
+msgstr "نویسنده"
 
 #: models.py:123
 msgid "owner"
-msgstr ""
+msgstr "صاحب"
 
 #: models.py:125 models.py:286
 msgid "Apphook configuration"
@@ -417,24 +417,24 @@ msgstr ""
 
 #: models.py:129
 msgid "publishing date"
-msgstr ""
+msgstr "تاریخ انتشار"
 
 #: models.py:131
 msgid "is published"
-msgstr ""
+msgstr "منتشر شده"
 
 #: models.py:133
 msgid "is featured"
-msgstr ""
+msgstr "در آینده منتشر شود"
 
 #: models.py:136
 #| msgid "featured article"
 msgid "featured image"
-msgstr ""
+msgstr "تصویر اصلی"
 
 #: models.py:152
 msgid "related articles"
-msgstr ""
+msgstr "مقالات مرتبط"
 
 #: models.py:271
 msgid ""

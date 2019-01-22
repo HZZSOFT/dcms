@@ -4,8 +4,24 @@
 # 
 # Translators:
 # Translators:
-# Javad Miraftabzadeh <javad.miraftabzadeh@gmail.com>, 2016
-# reza reza <master.rta@gmail.com>, 2016
+# Ali Alamshahi <Alamshahi@yahoo.com>, 2015
+# Ali Alamshahi <Alamshahi@yahoo.com>, 2015
+# Alireza Savand <alireza.savand@gmail.com>, 2012
+# Ali Sadr <asadr07@gmail.com>, 2017
+# Aryan Baghi <aryan@baghi.id.ir>, 2014
+# Aryan Baghi <aryan@baghi.id.ir>, 2014
+# cafe-click <cafeclick@rocketmail.com>, 2013
+# farshad <akbari.farshad@gmail.com>, 2014
+# hadiazaddel <hadiazaddel@chmail.ir>, 2014
+# hadiazaddel <hadiazaddel@chmail.ir>, 2014
+# Majid Vaghari <majid_vaghari2009@yahoo.com>, 2018
+# Matin M. <moosaei.matin@aol.com>, 2013
+# Mazdak Badakhshan <geraneum@gmail.com>, 2014
+# Meysam K <meysamkermani@gmail.com>, 2017
+# Mohamad Fazeli <caci96@gmail.com>, 2015
+# Mohammad Rafiei <mohammad.rafiei69@gmail.com>, 2017
+# omid zarin <mester.hope.oz@gmail.com>, 2014
+# Pouya Abbassi, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: django CMS\n"
@@ -13,222 +29,222 @@ msgstr ""
 "POT-Creation-Date: 2018-11-09 13:20+0100\n"
 "PO-Revision-Date: 2018-11-09 12:08+0000\n"
 "Last-Translator: Bartosz Płóciennik <thaian@outlook.com>\n"
-"Language-Team: Persian (Iran) (http://www.transifex.com/divio/django-cms/language/fa_IR/)\n"
+"Language-Team: Persian (http://www.transifex.com/divio/django-cms/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fa_IR\n"
+"Language: fa\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid "All"
-msgstr ""
+msgstr "همه"
 
 msgid "Copy permissions"
-msgstr "مجوزهای کپی کردن"
+msgstr "اختیارات کپی"
 
 msgid "Title"
 msgstr "عنوان"
 
 msgid "The default title"
-msgstr "عنوان پیش‌فرض"
+msgstr "عنوان پیش فرض"
 
 msgid "Slug"
-msgstr ""
+msgstr "نشانک (آدرس کوتاه صفحه)"
 
 msgid "The part of the title that is used in the URL"
-msgstr "بخشی از عنوان که در URL استفاده می‌شود"
+msgstr "قسمتی از عنوان که در آدرس اینترنتی استفاده می شود"
 
 msgid "Menu Title"
-msgstr "عنوان فهرست"
+msgstr "عنوان منو"
 
 msgid "Overwrite what is displayed in the menu"
-msgstr "بازنویسی مواردی که در فهرست نمایش داده می‌شوند"
+msgstr "بازنویسی در منوی نمایش داده شده"
 
 msgid "Page Title"
 msgstr "عنوان صفحه"
 
 msgid ""
 "Overwrites what is displayed at the top of your browser or in bookmarks"
-msgstr ""
+msgstr " عنوان مرورگر یا بوک مارک ها بازنویسی می شوند."
 
 msgid "Description meta tag"
-msgstr ""
+msgstr "متا تگ توضیحات"
 
 msgid "A description of the page used by search engines."
-msgstr ""
+msgstr "توضیحاتی در مورد محتوای صفحه که مورد استفاده موتورهای جستجو می باشد."
 
 msgid "Slug must not be empty."
-msgstr ""
+msgstr "نشانک ،آدرس کوتاه صفحه،  نباید خالی باشد."
 
 msgid "Page type"
 msgstr "نوع صفحه"
 
 msgid "Page Types"
-msgstr ""
+msgstr "انواع صفحه"
 
 msgid "Application"
-msgstr ""
+msgstr "برنامه کاربردی"
 
 msgid "Hook application to this page."
-msgstr ""
+msgstr "اتصال برنامه کاربردی به این صفحه"
 
 msgid "Overwrite URL"
-msgstr ""
+msgstr "جاینوشت آدرس اینترنتی"
 
 msgid "Keep this field empty if standard path should be used."
-msgstr ""
+msgstr "اگر از آدرس استاندارد استفاده می-شود، این فیلد خالی گذارده شود."
 
 msgid "X Frame Options"
-msgstr "تنظیمات X-Frame"
+msgstr "تنظیمات مربوط به X-Frame"
 
 msgid "Whether this page can be embedded in other pages or websites"
-msgstr ""
+msgstr "این صفحه می تواند در صفحات و سایت های دیگر جاسازی بشود."
 
 msgid "Redirect"
-msgstr ""
+msgstr "تغییر مسیر"
 
 msgid "Redirects to this URL."
-msgstr ""
+msgstr "تغییرمسیر به این آدرس."
 
 msgid "Start typing..."
-msgstr ""
+msgstr "شروع به نوشتن ..."
 
 msgid "Application configurations"
-msgstr ""
+msgstr "تنظیمات برنامه"
 
 msgid "Language independent options"
-msgstr ""
+msgstr "گزینه‌های مستقل زبان"
 
 #, python-format
 msgid "Please set the %(language)s slug before editing its advanced settings."
-msgstr ""
+msgstr "لطفا عنوان %(language)s را ویرایش کنید، قبل از اینکه تنظیمات پیشرفته‌ی آنرا ویرایش کنید."
 
 msgid "A page with this reverse URL id exists already."
-msgstr ""
+msgstr "صفحه-ای با شناسه-ی این آدرس معکوس وجود دارد."
 
 #| msgid "Application configurations"
 msgid "Invalid application config value"
 msgstr ""
 
 msgid "An application instance using this configuration already exists."
-msgstr ""
+msgstr "یک برنامه موردی با این تنظیمات از پیش وجود دارد."
 
 msgid "An application instance with this name already exists."
-msgstr ""
+msgstr "یک برنامه موردی با این نام از پیش وجود دارد."
 
 msgid "You can't move the home page inside another page"
 msgstr ""
 
 msgid "Yes"
-msgstr ""
+msgstr "بله"
 
 msgid "No"
-msgstr ""
+msgstr "نه"
 
 msgid "user"
-msgstr ""
+msgstr "کاربر"
 
 msgid "can_view"
-msgstr ""
+msgstr "امکان مشاهده"
 
 msgid "Add"
-msgstr ""
+msgstr "افزودن"
 
 msgid "Change"
-msgstr ""
+msgstr "تغییر"
 
 msgid "Delete"
-msgstr ""
+msgstr "حذف"
 
 msgid ""
 "Users can't create a page without permissions to change the created page. "
 "Edit permissions required."
-msgstr ""
+msgstr "کاربران بدون دسترسی تغییر صفحه ساخته شده نمی‌توانند صفحه جدید ایجاد کنند. دسترسی ویرایش لازم است. "
 
 msgid ""
 "Users can't delete a page without permissions to change the page. Edit "
 "permissions required."
-msgstr ""
+msgstr "کاربران بدون دسترسی تغییر صفحه  نمی‌توانند صفحه‌ای را حذف کنند. دسترسی ویرایش لازم است. "
 
 msgid ""
 "Users can't set page permissions without permissions to change a page. Edit "
 "permissions required."
-msgstr ""
+msgstr "کاربران بدون دسترسی تغییر صفحه  نمی‌توانند دسترسی‌های صفحه را تنظیم کنند. دسترسی ویرایش لازم است. "
 
 msgid ""
 "Users can't delete page permissions without permissions to change a page. "
 "Edit permissions required."
-msgstr ""
+msgstr "کاربران بدون دسترسی تغییر صفحه  نمی‌توانند دسترسی‌های صفحه را حذف کنند. دسترسی ویرایش لازم است. "
 
 msgid ""
 "Users can't create page permissions without permissions to change the "
 "created permission. Edit permissions required."
-msgstr ""
+msgstr "کاربران بدون دسترسی تغییر دسترسی ایجاد شده  نمی‌توانند دسترسی‌های صفحه ایجاد کنند. دسترسی ویرایش لازم است. "
 
 msgid ""
 "Users can't delete page permissions without permissions to change "
 "permissions. Edit permissions required."
-msgstr ""
+msgstr "کاربران بدون دسترسی تغییر دسترسی‌ها نمی توانند دسترسی‌های صفحه را حذف کنند. دسترسی ویرایش لازم است"
 
 #, python-format
 msgid "Invalid plugin type '%s'"
-msgstr ""
+msgstr "نوع پلاگین «%s» نامعتبر است"
 
 msgid "Language must be set to a supported language!"
-msgstr ""
+msgstr "یکی از زبانهای پشتیبانی شده را انتخاب کنید."
 
 msgid "Parent plugin language must be same as language!"
-msgstr ""
+msgstr "زبان افزونه ی پدر باید یکسان باشد! "
 
 #| msgid "Parent plugin language must be same as language!"
 msgid "Parent plugin placeholder must be same as placeholder!"
-msgstr ""
+msgstr "جایگاه پلاگین منبع باید مانند جایگاه باشد!"
 
 #, python-format
 msgid ""
 "Please create the %(language)s page translation before editing it's advanced"
 " settings."
-msgstr ""
+msgstr "لطفا صفحه‌ی ترجمه‌ی %(language)s را بسازید، قبل از اینکه تنظیمات پیشرفته‌ی آنرا ویرایش کنید."
 
 msgid "Advanced Settings"
-msgstr ""
+msgstr "تنظیمات پیشرفته"
 
 msgid "Publishing dates"
-msgstr ""
+msgstr "تاریخ انتشار"
 
 msgid "Change Permissions"
-msgstr ""
+msgstr "تغيير دسترسى ها"
 
 #, python-format
 msgid "Cannot delete %(name)s"
-msgstr ""
+msgstr "نمى توان %(name)s را پاك كرد"
 
 msgid "Are you sure?"
-msgstr ""
+msgstr "آیا مطمئن هستید؟"
 
 #, python-format
 msgid "%(name)s object with primary key %(key)r does not exist."
-msgstr ""
+msgstr "شی %(name)s با کلید اصلی %(key)r موجود نیست."
 
 msgid "Database error"
-msgstr ""
+msgstr "خطای پایگاه داده"
 
 msgid "Template not valid"
-msgstr ""
+msgstr "قالب معتبر نمی باشد."
 
 msgid "The template was successfully changed"
-msgstr ""
+msgstr "قالب با موفقیت تغییر یافت"
 
 msgid ""
 "Error! You don't have permissions to move this page. Please reload the page"
-msgstr ""
+msgstr "خطا! شما دسترسى لازم را براى انتقال اين صفحه نداريد."
 
 msgid "You do not have permission to copy these plugins."
-msgstr ""
+msgstr "شما دسترسى لازم را براى كپى بردارى اين افزونه ها نداريد."
 
 #| msgid "You do not have permission to clear this placeholder"
 msgid "Error! You don't have permissions to copy this page."
-msgstr ""
+msgstr "خطا! شما اختیارات کپی این صفحه را ندارید."
 
 msgid ""
 "Error! The page you're pasting is not translated in any of the languages "
@@ -237,306 +253,306 @@ msgstr ""
 
 #| msgid "You do not have permission to edit this page"
 msgid "You do not have permission to revert this page."
-msgstr ""
+msgstr "شما دسترسی لازم را برای احیای این صفحه ندارید."
 
 #, python-format
 msgid "\"%s\" was reverted to the live version."
-msgstr ""
+msgstr "\"%s\" به آخرین ورژن منتشر شده بازگردانده شد."
 
 msgid "You do not have permission to publish this page"
-msgstr ""
+msgstr "شما اجازه انجام این کار به انتشار این صفحه را ندارید"
 
 msgid "Page not published! A parent page is not published yet."
-msgstr ""
+msgstr "صفحه هنوز منتشر نشده است!زیرا صفحه ی منبع هنوز منتشر نشده است."
 
 msgid "The content was successfully published."
-msgstr ""
+msgstr "محتوا با موفقیت انتشار یافت ."
 
 msgid "There was a problem publishing your content"
-msgstr ""
+msgstr "مشکلی در انتشار محتوای شما وجود دارد ."
 
 msgid "You do not have permission to unpublish this page"
-msgstr ""
+msgstr "شما اجازه تغییر این صفحه از حالت انتشار به عدم انتشار را ندارید"
 
 msgid "This page was never published"
-msgstr ""
+msgstr "این صفحه تا به حال منتشر نشده"
 
 #, python-format
 msgid "The %(language)s page \"%(page)s\" was successfully unpublished"
-msgstr ""
+msgstr " صفحه %(language)s ،\"%(page)s\"، با موفقیت به حالت منتشرنشده تغییر کرد."
 
 #| msgid "You do not have permission to delete this plugin"
 msgid "You do not have permission to delete this page"
-msgstr ""
+msgstr "شما فاقد مجوز لازم برای حذف این صفحه می باشید."
 
 #, python-format
 msgid "Title and plugins with language %(language)s was deleted"
-msgstr ""
+msgstr "عنوان و افزونه-ها به زبان %(language)s حذف شدند."
 
 #, python-format
 #| msgid "You do not have permission to change pages."
 msgid "You don't have permissions to see page \"%(title)s\""
-msgstr ""
+msgstr "شما دسترسی لازم برای دیدن صفحه \"%(title)s\" را ندارید."
 
 msgid "You do not have permission to change this page's in_navigation status"
-msgstr ""
+msgstr "شما اجازه  تغییر وضعیت in_navigation این صفحه را ندارید"
 
 msgid "You do not have permission to edit this page"
-msgstr ""
+msgstr "شما اجازه ویرایش این صفحه را ندارید."
 
 msgid "Add Page Copy"
-msgstr ""
+msgstr "افزودن کپی از صفحه"
 
 msgid "New sub page"
-msgstr ""
+msgstr "زیر‌صفحه‌ی جدید"
 
 msgid "New page"
-msgstr ""
+msgstr "صفحه‌ی جدید"
 
 msgid "The page is not eligible to be home."
 msgstr ""
 
 msgid "View restriction"
-msgstr ""
+msgstr "مشاهد محدوديت"
 
 msgid "View restrictions"
-msgstr ""
+msgstr "نمايش محدوديت ها"
 
 #, python-format
 msgid "Field %s not found"
-msgstr ""
+msgstr "فیلد %s پیدا نشد."
 
 msgid "You do not have permission to edit this item"
-msgstr ""
+msgstr "شما اجازه ویرایش این صفحه را ندارید."
 
 msgid "You do not have permission to add a plugin"
-msgstr ""
+msgstr "شما فاقد دسترسى لازم براى اضافه كردن افزونه مى باشيد ."
 
 #| msgid "You do not have permission to clear this placeholder"
 msgid "You do not have permission to copy this placeholder."
-msgstr ""
+msgstr "شما دسترسی لازم برای کپی کردن این نگهدارنه را ندارید."
 
 msgid "Plugin not found"
-msgstr ""
+msgstr "پلاگین یافت نشد"
 
 msgid "You do not have permission to edit this plugin"
-msgstr ""
+msgstr "شما فاقد مجوز لازم برای ویرایش پلاگین می باشید"
 
 msgid "order parameter references plugins in different trees"
-msgstr ""
+msgstr "پارامتر پلاگینهای مرجع را در چینش درختی دیگری مرتب کنید"
 
 msgid "parent must be in the same placeholder"
-msgstr ""
+msgstr "منبع باید در همین جایگاه باشد"
 
 msgid "parent must be in the same language as plugin_language"
-msgstr ""
+msgstr "منبع باید در زبانی مشابه زبان پلاگین باشد."
 
 #| msgid "You have no permission to move this plugin"
 msgid "You have no permission to paste this plugin"
-msgstr ""
+msgstr "شما دسترسی لازم برای جایگذاری این افزونه را ندارید."
 
 #| msgid "You have no permission to move this plugin"
 msgid "You have no permission to paste this placeholder"
-msgstr ""
+msgstr "شما دسترسی لازم برای جایگذاری این نگهدارنده را ندارید."
 
 msgid "You have no permission to move this plugin"
-msgstr ""
+msgstr "شما فاقد دسترسى لازم براى منتقل كردن اين افزونه مى باشيد ."
 
 #| msgid "You have no permission to move this plugin"
 msgid "You have no permission to cut this plugin"
-msgstr ""
+msgstr "شما دسترسی لازم برای برداشت این افزونه را ندارید."
 
 msgid "You do not have permission to delete this plugin"
-msgstr ""
+msgstr "شما فاقد مجوز لازم برای حذف پلاگین می باشید."
 
 #, python-format
 msgid "The %(name)s plugin \"%(obj)s\" was deleted successfully."
-msgstr ""
+msgstr "%(name)s افزونه \"%(obj)s\" با موفقيت حذف شد."
 
 msgid "You do not have permission to clear this placeholder"
-msgstr ""
+msgstr "شما دسترسى حذف اين نگهدارنده را نداريد"
 
 #, python-format
 msgid "The placeholder \"%(obj)s\" was cleared successfully."
-msgstr ""
+msgstr "منفذ \"%(obj)s\" با موفقيت حذف شد."
 
 msgid "placeholder"
-msgstr ""
+msgstr "نگهدارنده"
 
 msgid "Page permissions"
-msgstr ""
+msgstr "اختیارات صفحه"
 
 msgid "User & Group permissions"
-msgstr ""
+msgstr "اختیارات کاربر و گروه"
 
 msgid "Page permissions management"
-msgstr ""
+msgstr "مدیریت اختیارات صفحه"
 
 #, python-format
 msgid "No registered apphook \"%r\" found"
-msgstr ""
+msgstr "قلاب نرم افزار (apphook) «%r» ثبت نشده یا پیدا نشد"
 
 msgid "django CMS"
-msgstr ""
+msgstr "مدیریت محتوای جنگو"
 
 msgid "Placeholder"
-msgstr ""
+msgstr "نگهدارنده"
 
 msgid "Alias"
-msgstr ""
+msgstr "نام مستعار"
 
 msgid "Create Alias"
-msgstr ""
+msgstr "ایجاد نام مستعار"
 
 #, python-format
 msgid ""
 "This is an alias reference, you can edit the content only on the <a "
 "href=\"%(page_url)s?edit\" target=\"_parent\">%(page_title)s</a> page."
-msgstr ""
+msgstr "این یک مرجع مستعار است،شما فقط میتوانید محتوا را در صفحه <a href=\"%(page_url)s?edit\" target=\"_parent\">%(page_title)s</a> تغییر دهید."
 
 msgid "Create"
-msgstr ""
+msgstr "بساز"
 
 msgid "Sites"
-msgstr ""
+msgstr "وبگاه‌ها"
 
 msgid "Admin Sites"
-msgstr ""
+msgstr "سايت هاى مديريت"
 
 msgid "Administration"
-msgstr ""
+msgstr "مديريت"
 
 msgid "User settings"
-msgstr ""
+msgstr "تنظيمات كاربر"
 
 msgid "Clipboard..."
-msgstr ""
+msgstr "فضای کپی"
 
 msgid "Clear clipboard"
-msgstr ""
+msgstr "پاک کردن فضای کپی"
 
 msgid "Disable toolbar"
-msgstr ""
+msgstr "از کار انداختن نوار ابزار"
 
 msgid "Shortcuts..."
-msgstr ""
+msgstr "میانبرها..."
 
 msgid "Users"
-msgstr ""
+msgstr "كاربر ها"
 
 #, python-format
 msgid "Logout %s"
-msgstr ""
+msgstr "خروج %s"
 
 msgid "Logout"
-msgstr ""
+msgstr "خروج"
 
 msgid "Language"
 msgstr "زبان"
 
 msgid "Structure"
-msgstr ""
+msgstr "ساختار"
 
 msgid "Content"
-msgstr ""
+msgstr "محتوا"
 
 #| msgid "Publish changes"
 msgid "Publish page changes"
-msgstr ""
+msgstr "انتشار تغییرات صفحه"
 
 msgid "Publish page now"
-msgstr ""
+msgstr "الآن صفحه را منتشر کن"
 
 msgid "Page settings"
-msgstr ""
+msgstr "تنظيمات صفحه"
 
 #| msgid "Add %(language)s Translation"
 msgid "Add Translation"
-msgstr ""
+msgstr "اضافه کردن ترجمه"
 
 #| msgid "Delete %(language)s Translation"
 msgid "Delete Translation"
-msgstr ""
+msgstr "حذف ترجمه"
 
 #| msgid "Copy all plugins from %s"
 msgid "Copy all plugins"
-msgstr ""
+msgstr "همه‌ی پلاگینها را کپی کن"
 
 #, python-format
 msgid "from %s"
-msgstr ""
+msgstr "از %s"
 
 #, python-format
 #| msgid "Are you sure you want copy all plugins from %s?"
 msgid "Are you sure you want to copy all plugins from %s?"
-msgstr ""
+msgstr "آیا مطمئن هستید که می‌خواهید همه افزونه‌ها را از %s کپی کنید؟"
 
 msgid "Pages"
-msgstr ""
+msgstr "صفحات"
 
 msgid "Page"
-msgstr ""
+msgstr "صفحه"
 
 #| msgid "Create"
 msgid "Create Page"
-msgstr ""
+msgstr "ساخت صفحه"
 
 msgid "New Page"
-msgstr ""
+msgstr "صفحه جدید"
 
 msgid "New Sub Page"
-msgstr ""
+msgstr "صفحه زیرین جدید"
 
 msgid "Duplicate this Page"
-msgstr ""
+msgstr "مضاعف سازی صفحه"
 
 msgid "Edit this Page"
-msgstr ""
+msgstr "ویرایش این صفحه"
 
 msgid "Advanced settings"
 msgstr "تنظیمات پیشرفته"
 
 msgid "Templates"
-msgstr ""
+msgstr "قالب ها"
 
 msgid "Save as Page Type"
-msgstr ""
+msgstr "ذخیره به عنوان نوع صفحه"
 
 msgid "Permissions"
-msgstr ""
+msgstr "دسترسى ها"
 
 msgid "Hide in navigation"
-msgstr ""
+msgstr "مخفى كردن در ناوبرى"
 
 msgid "Display in navigation"
-msgstr ""
+msgstr "نشان دادن در ناوبرى"
 
 msgid "Unpublish page"
-msgstr ""
+msgstr "نیاز به پایان انتشار"
 
 msgid "Publish page"
-msgstr ""
+msgstr "نیاز به انتشار"
 
 msgid "Are you sure you want to revert to live?"
-msgstr ""
+msgstr "آيا شما نسبت به برگرداندن به وضعیت فعلی مطمئن هستيد ؟"
 
 msgid "Revert to live"
-msgstr ""
+msgstr "احيا"
 
 msgid "Delete page"
-msgstr ""
+msgstr "صفحه را پاک‌کن"
 
 msgid "Create a new page next to the current page."
-msgstr ""
+msgstr "صفحه‌ی جدیدی در کنار صفحه‌ی فعلی بساز."
 
 msgid "Create a page below the current page."
-msgstr ""
+msgstr "صفحه‌ی جدیدی در زیر صفحه‌ی فعلی بساز."
 
 msgid "Select a valid site"
-msgstr ""
+msgstr "یک سایت معتبر انتخاب کنید."
 
 msgid "Select a valid page"
-msgstr ""
+msgstr "یک صفحه معتبر انتخاب کنید"
 
 #, python-format
 #| msgid ""
@@ -558,518 +574,518 @@ msgstr ""
 
 msgid ""
 "Optional. If supplied, will be automatically added within a new text plugin."
-msgstr ""
+msgstr "غیر ضروری، اگر پر شود، به صورت اتوماتیک در داخل پلاگین جدید اضافه میشود."
 
 msgid "Provide a title for the new page."
-msgstr ""
+msgstr "برای صفحه، یک عنوان ارائه دهید."
 
 msgid "Leave empty for automatic slug, or override as required."
-msgstr ""
+msgstr "برای تنظیم نشانک به صورت اتوماتیک، خالی بگذارید."
 
 #| msgid "You do not have permission to add a plugin"
 msgid "You don't have the permissions required to add a page."
 msgstr ""
 
 msgid "ID"
-msgstr ""
+msgstr "آی دی"
 
 msgid "position"
-msgstr ""
+msgstr "موقعیت"
 
 msgid "language"
 msgstr "زبان"
 
 msgid "plugin_name"
-msgstr ""
+msgstr "نام-پلاگین"
 
 msgid "creation date"
-msgstr ""
+msgstr "تاریخ ایجاد"
 
 msgid "can edit"
-msgstr ""
+msgstr "می-تواند ویرایش کند"
 
 msgid "can add"
-msgstr ""
+msgstr "می-تواند اضافه کند"
 
 msgid "can delete"
-msgstr ""
+msgstr "می-تواند حذف کند"
 
 msgid "can change advanced settings"
-msgstr ""
+msgstr "می-تواند تنظیمات پیشرفته را تغییر دهد"
 
 msgid "can publish"
-msgstr ""
+msgstr "می-تواند منتشر کند"
 
 msgid "can change permissions"
-msgstr ""
+msgstr "می-تواند اختیارات را تغییر دهد"
 
 msgid "can move"
-msgstr ""
+msgstr "می-تواند جابجا کند"
 
 msgid "view restricted"
-msgstr ""
+msgstr "مشاهده محدود شده"
 
 msgid "can recover pages"
-msgstr ""
+msgstr "می-تواند صفحات را بازیابی کند"
 
 msgid "group"
-msgstr ""
+msgstr "گروه"
 
 msgid "sites"
-msgstr ""
+msgstr "وبگاه‌ها"
 
 msgid "created by"
-msgstr ""
+msgstr "ایجادشده به وسیله"
 
 msgid "changed by"
-msgstr ""
+msgstr "تغییریافته به وسیله"
 
 msgid "publication date"
-msgstr ""
+msgstr "تاریخ انتشار"
 
 msgid "publication end date"
-msgstr ""
+msgstr "تاریخ اتمام انتشار"
 
 msgid "in navigation"
-msgstr ""
+msgstr "در گردش"
 
 msgid "soft root"
-msgstr ""
+msgstr "ریشه نرم"
 
 msgid "id"
-msgstr ""
+msgstr "شناسه"
 
 msgid "attached menu"
-msgstr ""
+msgstr "منوی ضمیمه شده"
 
 msgid "template"
-msgstr ""
+msgstr "قالب"
 
 msgid "login required"
-msgstr ""
+msgstr "نیاز به ورود دارد"
 
 msgid "menu visibility"
-msgstr ""
+msgstr "روئیت پذیری منو"
 
 msgid "application"
-msgstr ""
+msgstr "نرم افزار"
 
 msgid "application instance name"
-msgstr ""
+msgstr "نام نمونه برنامه "
 
 msgid "site"
-msgstr ""
+msgstr "وبگاه"
 
 msgid "Grant on"
-msgstr ""
+msgstr "دسترسی به"
 
 msgid "page"
 msgstr "صفحه"
 
 msgid "for logged in users only"
-msgstr ""
+msgstr "فقط برای کاریران وارد شده به سیستم"
 
 msgid "for anonymous users only"
-msgstr ""
+msgstr "فقط برای کاربران ناشناس"
 
 msgid "Inherit from parent page"
-msgstr ""
+msgstr "از صفحه منبع ارث ببر."
 
 msgid "Deny"
-msgstr ""
+msgstr "رد کردن"
 
 msgid "Only this website"
-msgstr ""
+msgstr "فقط این وب سایت"
 
 msgid "Allow"
-msgstr ""
+msgstr "پذیرفتن"
 
 msgid ""
 "When the page should go live. Status must be \"Published\" for page to go "
 "live."
-msgstr ""
+msgstr "زمانی که صفحه منتشر می-شود. وضعیت صفحه باید «منتشرشده» باشید تا این رخ دهد."
 
 msgid "When to expire the page. Leave empty to never expire."
-msgstr ""
+msgstr "زمان انقضای صفحه. خالی بماند اگر هیچ گاه منقضی نمی-شود."
 
 msgid "All ancestors will not be displayed in the navigation"
-msgstr ""
+msgstr "تمامی اجداد در گردش نمایش داده نمی-شوند."
 
 msgid ""
 "A unique identifier that is used with the page_url templatetag for linking "
 "to this page"
-msgstr ""
+msgstr "یک شناسه ی منحصر به فرد که با تگ قالب  page_url  استفاده می شود برای لینک دادن به این "
 
 msgid "The template used to render the content."
-msgstr ""
+msgstr "قالبی که برای پویش محتوا استفاده می‌شود"
 
 msgid "limit when this page is visible in the menu"
-msgstr ""
+msgstr "محدودیت زمانی که این صفحه در منو ظاهر میشود"
 
 msgid "pages"
-msgstr ""
+msgstr "صفحات"
 
 msgid "Empty"
-msgstr ""
+msgstr "خالی"
 
 msgid "default"
-msgstr ""
+msgstr "پیشفرض"
 
 msgid "Current page"
-msgstr ""
+msgstr "صحفه فعلی"
 
 msgid "Page children (immediate)"
-msgstr ""
+msgstr "صحفهات فرزند (بلافاصله)"
 
 msgid "Page and children (immediate)"
-msgstr ""
+msgstr "صفحه و فرزندان (بلافاصله)"
 
 msgid "Page descendants"
-msgstr ""
+msgstr "نوادگان صفحه"
 
 msgid "Page and descendants"
-msgstr ""
+msgstr "صفحه و نوادگان"
 
 msgid "on page level"
-msgstr ""
+msgstr "در سطح صفحه"
 
 msgid "frontend view restriction"
-msgstr ""
+msgstr "نمايش ابتدايى محدوديت"
 
 #| msgid "Please select user or group first."
 msgid "Please select user or group."
-msgstr ""
+msgstr "لطفا کاربر یا گروه را انتخاب کنید."
 
 msgid ""
 "Users can't publish a page without permissions to change the page. Edit "
 "permissions required."
-msgstr ""
+msgstr "کاربران نمیتوانند صفحه ای را ، بدون اجازه ی تغییر صفحات ، تغییر دهند.اجازه ی اصلاح ضروری است."
 
 msgid ""
 "Users can't change page advanced settings without permissions to change the "
 "page. Edit permissions required."
-msgstr ""
+msgstr "کاربران نمیتوانند تنظیمات پیشرفته را بدون اجازه ی تغییر در صفحات  تغییر دهند . اجازه ی اصلاح ضروری است."
 
 msgid ""
 "Users can't change page permissions without permissions to change the page. "
 "Edit permissions required."
-msgstr ""
+msgstr "کاربران نمیتوانند اجازه های صفحه را بدون اجازه ی تغییر در صفحات تغییر دهند . اجازه ی اصلاح ضروری است."
 
 msgid ""
 "Users can't move a page without permissions to change the page. Edit "
 "permissions required."
-msgstr ""
+msgstr "کاربران نمیتوانند صفحه ای را  بدون اجازه ی تغییر در صفحات جا به جا کنند . اجازه ی اصلاح ضروری است."
 
 msgid "can recover any deleted page"
-msgstr ""
+msgstr "می-تواند هر صفحه پاک-شده را بازیابی کند"
 
 msgid "If none selected, user haves granted permissions to all sites."
-msgstr ""
+msgstr "اگر انتخابی صورت نگیرد، کاربر در تمام وبگاه-ها، اختیارات داده-شده را خواهد داشت."
 
 msgid "Page global permission"
-msgstr ""
+msgstr "اختیار سراسری صفحه"
 
 msgid "Pages global permissions"
-msgstr ""
+msgstr "اختیارات سراسری صفحه"
 
 msgid "Page permission"
-msgstr ""
+msgstr "اختیار صفحه"
 
 msgid ""
 "Add page permission requires also access to children, or descendants, "
 "otherwise added page can't be changed by its creator."
-msgstr ""
+msgstr " اجازه دسترسی به اضافه کردن صفحه اجازه دسترسی به صفحات زیرین، و یا صفحات فرزند، را نیز نیاز دارد؛ در غیر اینصورت خود ایجادکننده صفحه قابلیت تغییر آن را نخواهد داشت."
 
 msgid "User (page)"
-msgstr ""
+msgstr "کاربر (صفحه)"
 
 msgid "Users (page)"
-msgstr ""
+msgstr "کاربران (صفحه)"
 
 msgid "User group (page)"
-msgstr ""
+msgstr "گروه کاربری (صفحه)"
 
 msgid "User groups (page)"
-msgstr ""
+msgstr "گروه‌های کاربری (صفحه)"
 
 msgid "slot"
-msgstr ""
+msgstr "شیار"
 
 msgid "width"
 msgstr "عرض"
 
 msgid "<Empty>"
-msgstr ""
+msgstr "<خالی>"
 
 msgid "The language for the admin interface and toolbar"
-msgstr ""
+msgstr "زبان محيط مديريت و نوارابزار"
 
 msgid "user setting"
-msgstr ""
+msgstr "تنظيم كاربر"
 
 msgid "user settings"
-msgstr ""
+msgstr "تنظيمات كاربر"
 
 msgid "by template"
-msgstr ""
+msgstr "بر اساس قالب"
 
 msgid "by code"
-msgstr ""
+msgstr "بر اساس كد"
 
 msgid "static placeholder name"
-msgstr ""
+msgstr "نام نگهدارنده ی ثابت"
 
 msgid ""
 "Descriptive name to identify this static placeholder. Not displayed to "
 "users."
-msgstr ""
+msgstr "نامی توصیف کننده برای شناخت  این نگهدارنده ی ثابت است و به کاربرها نمایش داده نمی شود."
 
 msgid "placeholder code"
-msgstr ""
+msgstr "کد نگهدارنده "
 
 msgid "To render the static placeholder in templates."
-msgstr ""
+msgstr "برای ارائه نگهدارنده ی ثابت در قالب ها."
 
 msgid "placeholder content"
-msgstr ""
+msgstr "محتوای نگهدارنده"
 
 msgid "creation_method"
-msgstr ""
+msgstr "روش-خلق"
 
 msgid "static placeholder"
-msgstr ""
+msgstr "نگهدارنده ی ثابت"
 
 msgid "static placeholders"
-msgstr ""
+msgstr "نگهدارنده های ثابت"
 
 msgid "A static placeholder with the same site and code already exists"
-msgstr ""
+msgstr "یک نگهدارنده ی ثابت با سایت و کد یکسان از قبل موجود است."
 
 msgid "title"
 msgstr "عنوان"
 
 msgid "overwrite the title (html title tag)"
-msgstr ""
+msgstr "عنوان بازنویسی شود (تگ عنوان در html)"
 
 msgid "overwrite the title in the menu"
-msgstr ""
+msgstr "عنوان در منو بازنویسی شود"
 
 msgid "description"
-msgstr ""
+msgstr "توصیفات"
 
 msgid "The text displayed in search engines."
-msgstr ""
+msgstr "متن در موتور هاى جست و جو نمايش داده شده است ."
 
 msgid "slug"
-msgstr ""
+msgstr "نشانک ،آدرس کوتاه صفحه، "
 
 msgid "Path"
-msgstr ""
+msgstr "آدرس"
 
 msgid "has url overwrite"
-msgstr ""
+msgstr "بازنویسی آدرس دارد"
 
 msgid "redirect"
-msgstr ""
+msgstr "تغییر مسیر"
 
 msgid "is published"
-msgstr ""
+msgstr "منتشرشده"
 
 msgid "Advanced options"
-msgstr ""
+msgstr "گزینه های پیشرفته"
 
 msgid "Generic"
-msgstr ""
+msgstr "عمومی"
 
 #, python-format
 #| msgid "The %(name)s plugin \"%(obj)s\" was deleted successfully."
 msgid "The %(name)s \"%(obj)s\" was changed successfully."
-msgstr ""
+msgstr "%(name)s \"%(obj)s\" با موفقیت تغییر کرد."
 
 msgid "There are no further settings for this plugin. Please press save."
-msgstr ""
+msgstr "تنظیمات بیشتری برای این پلاگین وجود ندارد . لطفا ذخیره کنید."
 
 msgid "Save"
-msgstr ""
+msgstr "ذخیره"
 
 #, python-format
 msgid "Log in to administration <a href=\"%(login_url)s\">here</a>."
-msgstr ""
+msgstr "در <a href=\"%(login_url)s\">اینجا</a> به مدیریت وارد شوید."
 
 #, python-format
 msgid "Login url: %(login_url)s"
-msgstr ""
+msgstr "آدرس ورود: %(login_url)s"
 
 msgid "Username:"
-msgstr ""
+msgstr "کاربر:"
 
 msgid "Password:"
-msgstr ""
+msgstr "رمز عبور:"
 
 #| msgid "Add Page"
 msgid "Add a page"
-msgstr ""
+msgstr "صفحه ای اضافه کن."
 
 msgid "Change a page"
-msgstr ""
+msgstr "تغییر یک صفحه"
 
 msgid "Home"
-msgstr ""
+msgstr "خانه"
 
 msgid "View on site"
-msgstr ""
+msgstr "مشاهده روی وب‌گاه"
 
 msgid "Please correct the error below."
 msgid_plural "Please correct the errors below."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "لطفا خطاهای زیر را تصحیح کنید."
+msgstr[1] "لطفا خطاهای زیر را تصحیح کنید."
 
 msgid "All permissions"
-msgstr ""
+msgstr "تمامی اختیارات"
 
 msgid "Loading..."
-msgstr ""
+msgstr "در حال بارگذاری"
 
 msgid "Save and continue editing"
-msgstr ""
+msgstr "ذخیره و ادامه ویرایش"
 
 msgid "User"
-msgstr ""
+msgstr "کاربر"
 
 msgid "Group"
-msgstr ""
+msgstr "گروه"
 
 msgid "Can edit"
-msgstr ""
+msgstr "می‌تواند ویرایش کند"
 
 msgid "Can add"
-msgstr ""
+msgstr "می‌تواند بیفزاید"
 
 msgid "Can delete"
-msgstr ""
+msgstr "می‌تواند پاک کند"
 
 msgid "Can publish"
-msgstr ""
+msgstr "می‌تواند منتشر کند"
 
 msgid "Can change permissions"
-msgstr ""
+msgstr "می‌تواند اختیارات را تغییر‌دهد"
 
 msgid "Can move"
-msgstr ""
+msgstr "می‌تواند انتقال دهد"
 
 msgid "Can view"
-msgstr ""
+msgstr "میتواند مشاهده کند"
 
 msgid "(global)"
-msgstr ""
+msgstr ")سراسری("
 
 msgid "(current)"
-msgstr ""
+msgstr ")جاری("
 
 msgid "Page doesn't inherit any permissions."
-msgstr ""
+msgstr "صفحه اختیاراتی به ارث نمی‌برد."
 
 msgid "Edit model"
-msgstr ""
+msgstr "حالت ویرایش"
 
 msgid "Save as new"
-msgstr ""
+msgstr "ذخیره به عنوان جدید"
 
 msgid "Save and add another"
-msgstr ""
+msgstr "ذخیره و اضافه‌کردن دیگری"
 
 msgid "Basic Settings"
-msgstr ""
+msgstr "تنظیمات پایه"
 
 msgid "Copy"
-msgstr ""
+msgstr "کپی"
 
 msgid "Cut"
-msgstr ""
+msgstr "برداشت"
 
 msgid "Paste"
-msgstr ""
+msgstr "جایگذاری"
 
 #| msgid "Save as new"
 msgid "Set as home"
 msgstr ""
 
 msgid "is restricted"
-msgstr ""
+msgstr "محدود شده"
 
 msgid "last change by"
-msgstr ""
+msgstr "آخرین تغییر توسط"
 
 msgid "meta"
-msgstr ""
+msgstr "متا"
 
 msgid "List of pages"
-msgstr ""
+msgstr "فهرست صفحات"
 
 msgid "Search"
-msgstr ""
+msgstr "جستجو"
 
 #| msgid "Page Title"
 msgid "Page Tree"
-msgstr ""
+msgstr "لیست درختی صفحه"
 
 msgid "Reset filter"
-msgstr ""
+msgstr "ریست فیلتر"
 
 #, python-format
 msgid ""
 "\n"
 "                                                Restore deleted %(name)s\n"
 "                                            "
-msgstr ""
+msgstr "\n                                                %(name)s حذف شده بازیابی شد\n                                            "
 
 #, python-format
 msgid ""
 "\n"
 "                                New %(name)s\n"
 "                            "
-msgstr ""
+msgstr "\n                                %(name)s جدید\n                            "
 
 #| msgid "in navigation"
 msgid "Main Navigation"
-msgstr ""
+msgstr "جهت‌یابی اصلی"
 
 #| msgid "Actions"
 msgid "Options"
-msgstr ""
+msgstr "گزینه‌ها"
 
 msgid "Successfully moved"
-msgstr ""
+msgstr "با موفقیت جابجا شد"
 
 msgid "Changes within the tree might require a refresh."
-msgstr ""
+msgstr "برای اعمال تغییرات در درخت نیاز به بازخوانی مجدد می باشد."
 
 msgid "Error:"
-msgstr ""
+msgstr "خطا:"
 
 msgid ""
 "This page cannot be copied because an application is attached to it. See the"
 " Page's Advanced settings to manage apphooks."
-msgstr ""
+msgstr "نمیتوان این صفحه را کپی کرد چون یک نرم‌افزار به آن پیوست شده است. تنظیمات پیشرفته‌ی صفحه را ببینید تا قلاب‌های نرم‌افزاری (apphook) را مدیریت کنید."
 
 msgid "Are you sure you want to § this page?"
-msgstr ""
+msgstr "آیا اطمینان دارید که می‌خواهید این صفحه را § کنید؟"
 
 msgid "Reload"
-msgstr ""
+msgstr "بارگزاری مجدد"
 
 #| msgid "New Page"
 msgid "New node"
-msgstr ""
+msgstr "گره جدید"
 
 msgid "nodes"
-msgstr ""
+msgstr "گره‌ها"
 
 msgid "View"
-msgstr ""
+msgstr "نمایش"
 
 msgid "Menu"
-msgstr ""
+msgstr "منو"
 
 #, python-format
 #| msgid ""
@@ -1085,129 +1101,129 @@ msgid ""
 msgstr ""
 
 msgid "Copy options"
-msgstr ""
+msgstr "تنظیمات کپی"
 
 msgid "Choose copy options"
-msgstr ""
+msgstr "تنظیمات کپی را انتخاب کنید"
 
 msgid "Close"
-msgstr ""
+msgstr "بستن"
 
 msgid "Legend"
-msgstr ""
+msgstr "شرح"
 
 #| msgid "published"
 msgid "Published"
-msgstr ""
+msgstr "منتشر شده"
 
 #| msgid "Change"
 msgid "Changed"
-msgstr ""
+msgstr "تغییر کرده"
 
 #| msgid "unpublished"
 msgid "Unpublished"
-msgstr ""
+msgstr "منتشر نشده"
 
 #| msgid "in menu"
 msgid "In menu"
-msgstr ""
+msgstr "داخل منو"
 
 #| msgid "not in menu"
 msgid "Not in menu"
-msgstr ""
+msgstr "در منو نباشد"
 
 #| msgid "New page"
 msgid "View page"
-msgstr ""
+msgstr "نمایش صفحه"
 
 #| msgid "softroot"
 msgid "Softroot"
-msgstr ""
+msgstr "ریشه‌ی نرم"
 
 msgid "Apphook"
-msgstr ""
+msgstr "قلاب نرم‌افزار (apphook)"
 
 #, python-format
 msgid "Application: %(apphook)s"
-msgstr ""
+msgstr "ابزار: %(apphook)s"
 
 #, python-format
 #| msgid "Edit this page in %(language)s "
 msgid "Preview this page in %(language)s "
-msgstr ""
+msgstr "پیشنمایش صفحه در %(language)s "
 
 msgid "Preview"
-msgstr ""
+msgstr "پیش‌نمایش"
 
 msgid "Publish"
-msgstr ""
+msgstr "انتشار"
 
 msgid "Unpublish"
-msgstr ""
+msgstr "عدم انتشار"
 
 msgid "Configure"
-msgstr ""
+msgstr "پیکربندی"
 
 msgid "in menu"
-msgstr ""
+msgstr "داخل منو"
 
 msgid "not in menu"
-msgstr ""
+msgstr "در منو نباشد"
 
 #| msgid "Page settings (SHIFT-click for advanced settings)"
 msgid "Page settings (SHIFT click for advanced settings)"
-msgstr ""
+msgstr "تنظیمات صفحه (دکمه‌ی shift را نگه‌دارید برای تنظیمات پیشرفته)"
 
 msgid "Clipboard"
-msgstr ""
+msgstr "فضای کپی"
 
 msgid "Add plugin"
-msgstr ""
+msgstr "اضافه کردن پلاگین"
 
 msgid "Copy all"
-msgstr ""
+msgstr "كپى بردارى از همه"
 
 msgid "Copy from"
-msgstr ""
+msgstr "کپی کردن از"
 
 msgid "Empty all"
-msgstr ""
+msgstr "خالى كردن همه"
 
 msgid "Filter plugins..."
-msgstr ""
+msgstr "فیلتر پلاگینها..."
 
 msgid "This is a static placeholder"
-msgstr ""
+msgstr "این یک جایگاه استاتیک است"
 
 msgid "Expand all"
-msgstr ""
+msgstr "گسترش همه"
 
 msgid "Collapse all"
-msgstr ""
+msgstr "جمع کردن همه"
 
 msgid "Edit"
-msgstr ""
+msgstr "ویرایش"
 
 msgid "You cannot add plugins to this plugin."
-msgstr ""
+msgstr "شما نمیتوانید به این پلاگین، پلاگین دیگری اضافه کنید."
 
 msgid "This plugin cannot be moved or edited outside of its parent"
-msgstr ""
+msgstr "این پلاگین نمیتواند به خارج از منبع منتقل یا ویرایش شود."
 
 msgid "Clipboard is empty."
-msgstr ""
+msgstr "فضای کپی خالی است."
 
 msgid "This plugin does not allow plugins of this type as nested plugins."
-msgstr ""
+msgstr "این پلاگین، به پلاگینهایی از این نوع اجازه‌ی قرار گرفتن به صورت تو‌در‌تو نمیدهد."
 
 msgid "This plugin cannot have nested plugins."
-msgstr ""
+msgstr "این پلاگین نمیتواند پلاگینهای تو‌در‌تو داشته باشد."
 
 msgid "Highlight"
 msgstr ""
 
 msgid "Available plugins"
-msgstr ""
+msgstr "افزونه‌های موجود"
 
 #| msgid "Structure"
 msgid "Toggle structure"
@@ -1218,165 +1234,165 @@ msgid "View published"
 msgstr ""
 
 msgid "Login"
-msgstr ""
+msgstr "ورود"
 
 msgid "Add plugin to"
-msgstr ""
+msgstr "اضافه کردن پلاگین به"
 
 msgid "More"
-msgstr ""
+msgstr "بیشتر"
 
 #, python-format
 #| msgid "Development version using django CMS %(cms_version)s"
 msgid ""
 "Development version using django CMS %(cms_version)s, Django "
 "%(django_version)s, Python %(python_version)s"
-msgstr ""
+msgstr "ورژن تحت توسعه، از نسخه‌ی %(cms_version)s «سیستم مدیریت محتوای جنگو» و نسخه‌ی %(django_version)s «جنگو» و نسخه‌ی %(python_version)s «پایتون» استفاده میکند."
 
 msgid "Cancel"
-msgstr ""
+msgstr "لغو"
 
 msgid "The following error occured:"
-msgstr ""
+msgstr "خطای مقابل رخ داده است:"
 
 #| msgid "Action successfull... reloading."
 msgid "Action successful."
 msgstr ""
 
 msgid "Are you sure you want to delete this plugin?"
-msgstr ""
+msgstr "آیا شما مطمئن هستید می‌خواهید این افزونه را پاک کنید؟"
 
 msgid "Are you sure you want to publish this page?"
-msgstr ""
+msgstr "آیا مطمئن هستید که می خواهید این صفحه را منتشر کنید؟"
 
 msgid "Plugin will be added here"
-msgstr ""
+msgstr "پلاگین اینجا اضافه میشود"
 
 #| msgid "This page has unpublished changes."
 msgid "You have unsaved changes."
-msgstr ""
+msgstr "شما تغییراتی ذخیره نشده دارید."
 
 #| msgid "Loading..."
 msgid "Loading"
-msgstr ""
+msgstr "در حال بارگذاری"
 
 #| msgid "Are you sure you want to § this page?"
 msgid "Are you sure you want to abandon these changes?"
-msgstr ""
+msgstr "آیا اطمینان دارید میخواهید این تغییرات را رها کنید؟"
 
 msgid ""
 "The form could not be loaded. Please check that the server is running "
 "correctly."
-msgstr ""
+msgstr "فورم نمیتواند بارگزاری شود. لطفا اطمینان حاصل کنید که سرور به خوبی کار میکند."
 
 #| msgid "Notify user"
 msgid "Most used"
 msgstr ""
 
 msgid "Shortcuts"
-msgstr ""
+msgstr "میانبرها"
 
 msgid "The page was changed in the meantime, reloading..."
 msgstr ""
 
 msgid "Bring up this help dialog"
-msgstr ""
+msgstr "این گفتگو کمک را بیابید"
 
 #| msgid "Cancel"
 msgid "Close/cancel"
-msgstr ""
+msgstr "بستن"
 
 msgid "Toggle structure mode"
-msgstr ""
+msgstr "حالت ساختار را تغییر دهید"
 
 msgid "Toggle structure mode and highlight hovered-over plugin"
-msgstr ""
+msgstr "حالت ساختار را تغییر دهید و پلاگین شناور شده را برجسته کنید"
 
 msgid "Open \"Create\" dialog"
-msgstr ""
+msgstr "گفتگوی \"ساختن\" را باز کنید."
 
 msgid "Focus on Toolbar"
-msgstr ""
+msgstr "زوم بر روی نوار ابزار"
 
 #| msgid "static placeholders"
 msgid "Focus on placeholders"
-msgstr ""
+msgstr "زوم بر روی نگهدارنده ها"
 
 msgid "Move to next/previous element"
-msgstr ""
+msgstr "انتقال به المان بعدی/قبلی"
 
 #| msgid "Add plugin to placeholder"
 msgid "Focus on plugins of placeholder"
-msgstr ""
+msgstr "زوم بر روی پلاگین نگهدارنده ها"
 
 #| msgid "Add plugin"
 msgid "Edit plugin"
-msgstr ""
+msgstr "ویرایش افزونه"
 
 #| msgid "not in menu"
 msgid "Open actions menu"
-msgstr ""
+msgstr "باز کردن منوی عملیات"
 
 #| msgid "Expand all"
 msgid "Expand/collapse"
-msgstr ""
+msgstr "بازکردن/جمع کردن"
 
 msgid ""
 "<strong>Login failed.</strong> Please check your credentials and try again."
-msgstr ""
+msgstr "<strongورود شما ناموفق بود.</strong> لطفاً ورودى هاى خود را دوباره بازبينى كنيد."
 
 msgid "This page has unpublished changes."
-msgstr ""
+msgstr "اين صفحه داراى تغييرات منتشر نشده است."
 
 msgid "Double-click to edit"
-msgstr ""
+msgstr "برای ویرایش دو بار کلیک کنید"
 
 msgid "Tap to edit"
-msgstr ""
+msgstr "برای ویرایش کلیک کنید"
 
 msgid "Click to go back"
-msgstr ""
+msgstr "برای بازگشت کلیک کنید"
 
 msgid "Click to go forward"
-msgstr ""
+msgstr "برای جلو رفتن کلیک کنید"
 
 msgid "Minimize"
-msgstr ""
+msgstr "کوچک کردن"
 
 msgid "Maximize"
-msgstr ""
+msgstr "بزرگ کردن"
 
 msgid "Drop a plugin here"
-msgstr ""
+msgstr "افزونه را در اين مكان قرار دهيد"
 
 msgid "This page has no preview!"
-msgstr ""
+msgstr "این صفحه هیچ پیش نمایشی ندارد!"
 
 msgid "It is being redirected to:"
-msgstr ""
+msgstr "تغییر مسیر می دهد به :"
 
 msgid "Installation successful!"
-msgstr ""
+msgstr "نصب موفق بود!"
 
 msgid "Add your first page"
-msgstr ""
+msgstr "صفحه‌ی اول خود را اضافه کنید"
 
 msgid "Please log in"
-msgstr ""
+msgstr "لطفا لاگین کنید (وارد شوید)"
 
 #, python-format
 msgid ""
 "\n"
 "                    Welcome to django CMS version <strong>%(cms_version)s</strong>.\n"
 "                "
-msgstr ""
+msgstr "\n                    به سیستم مدیریت «محتوای جنگو» نسخه‌ی <strong>%(cms_version)s خوش آمدید</strong>.\n                "
 
 #, python-format
 msgid ""
 "\n"
 "                        <a href=\"%(admin_add_page)s\" class=\"js-welcome-add\">Add the first page</a> to the system to continue.\n"
 "                    "
-msgstr ""
+msgstr "\n                        برای ادامه<a href=\"%(admin_add_page)s\" class=\"js-welcome-add\">صفحه‌ی اول</a> را به سیستم اضافه کنید.\n                    "
 
 #, python-format
 msgid ""
@@ -1384,16 +1400,16 @@ msgid ""
 "                        JavaScript seems to be disabled so please\n"
 "                        <a href=\"%(admin_add_page)s\" class=\"js-welcome-add\">add a page</a> manually.\n"
 "                    "
-msgstr ""
+msgstr "\n                        به نظر میرسد جاوا اسکریپت غیر فعال است پس لطفا\n                        به صورت دستی <a href=\"%(admin_add_page)s\" class=\"js-welcome-add\">یک صفحه اضافه کنید</a> manually.\n                    "
 
 msgid "Installation Notes"
-msgstr ""
+msgstr "یادداشت های نصب"
 
 msgid "Support"
-msgstr ""
+msgstr "پشتیبانی"
 
 msgid "Documentation"
-msgstr ""
+msgstr "مستندات"
 
 #| msgid ""
 #| "          <p class=\"cms-welcome-notes\">If you don't see the ngo CMS logo at the top, make sure\n"
@@ -1431,229 +1447,229 @@ msgid ""
 msgstr ""
 
 msgid "Welcome to django CMS"
-msgstr ""
+msgstr "به سیستم مدیریت محتوای جنگو خوش آمدید"
 
 msgid "Add Another"
-msgstr ""
+msgstr "اضافه کردن یکی دیگر"
 
 msgid "Back"
-msgstr ""
+msgstr "قبلی"
 
 msgid "Please choose an option from below to proceed to the next step."
-msgstr ""
+msgstr "برای رفتن به مرحله‌ی بعد، لطفا یکی از گزینه‌های زیر را انتخاب کنید."
 
 msgid "Next"
-msgstr ""
+msgstr "بعدی"
 
 msgid "unpublished changes"
-msgstr ""
+msgstr "تغییرات منتشر نشده"
 
 msgid "published"
-msgstr ""
+msgstr "منتشر‌شده"
 
 msgid "unpublished parent"
-msgstr ""
+msgstr "منبع منتشر نشده است."
 
 msgid "unpublished"
-msgstr ""
+msgstr "منتشر نشده"
 
 msgid "no content"
-msgstr ""
+msgstr "بدون محتوا"
 
 #, python-format
 msgid "Page not found on %(domain)s"
-msgstr ""
+msgstr "صغحه پیدا نشد روی %(domain)s"
 
 #, python-format
 msgid ""
 "A template tag couldn't find the page with lookup arguments `%(page_lookup)s\n"
 "`. The URL of the request was: http://%(host)s%(path)s"
-msgstr ""
+msgstr "يك تگ قالب نميتواند صفحه را با استفاده از آرگومان هاى ارجاعى پيدا كند `%(page_lookup)s⏎ `. آدرس درخواست شده: http://%(host)s%(path)s"
 
 msgid "Two columns"
-msgstr ""
+msgstr "دو ستون"
 
 msgid "Three columns"
-msgstr ""
+msgstr "سه ستون"
 
 msgid "username"
-msgstr ""
+msgstr "نام کاربری"
 
 msgid ""
 "Required. 300 characters or fewer. Letters, numbers and @/./+/-/_ characters"
-msgstr ""
+msgstr "واجب. 300 کاراکتر یا کمتر. حروف، اعداد و کاراکترهای @/./+/-/_"
 
 msgid "Enter a valid username."
-msgstr ""
+msgstr "نام کاربری معتبر وارد کنید."
 
 msgid "email address"
-msgstr ""
+msgstr "ایمیل به"
 
 msgid "staff status"
-msgstr ""
+msgstr "وضعیت کارکنان"
 
 msgid "Designates whether the user can log into this admin site."
-msgstr ""
+msgstr "معین می‌کند که آیا کاربر می‌تواند به این سایت مدیریت وارد شود."
 
 msgid "active"
-msgstr ""
+msgstr "فعال"
 
 msgid ""
 "Designates whether this user should be treated as active. Unselect this "
 "instead of deleting accounts."
-msgstr ""
+msgstr "مشخص می‌سازد که آیا با این کاربر باید به عنوان فعال رفتار شود. حذف گزینش این آیتم به جای حذف حساب‌ها"
 
 msgid "users"
-msgstr ""
+msgstr "کاربران"
 
 msgid "Title Extension"
-msgstr ""
+msgstr "‌گسترش عنوان"
 
 msgid "Page Extension"
-msgstr ""
+msgstr "‌گسترش صفحه"
 
 msgid "object ID"
-msgstr ""
+msgstr "شناسه شی"
 
 msgid "Example1 App"
-msgstr ""
+msgstr "اپلیکیشن مثال۱"
 
 msgid "MultilingualExample1 App"
-msgstr ""
+msgstr "اپلیکیشن چند زبانه‌ی مثال۱"
 
 msgid "Example1"
-msgstr ""
+msgstr "مثال۱"
 
 msgid "Examples"
-msgstr ""
+msgstr "مثال‌ها"
 
 msgid "Extra Context"
-msgstr ""
+msgstr "مفهوم اصلى"
 
 msgid "Articles"
-msgstr ""
+msgstr "مقالات"
 
 msgid "Sample App"
-msgstr ""
+msgstr "ابزار نمونه"
 
 #| msgid "Sample App with excluded permissions"
 msgid "Sample App with config"
 msgstr ""
 
 msgid "Sample App with excluded permissions"
-msgstr ""
+msgstr "اَپ نمونه با سطح دسترسی‌های محدود"
 
 msgid "Sample App 2"
-msgstr ""
+msgstr "ابزار نمونه ۲"
 
 #| msgid "Sample App 2"
 msgid "Sample App 3"
-msgstr ""
+msgstr "برنامه ی نمونه ی شماره ی 3"
 
 msgid "Namespaced App"
-msgstr ""
+msgstr "اپلیکیشن دارای فضای نام"
 
 msgid "Parent app"
-msgstr ""
+msgstr "اَپ منبع"
 
 msgid "Child app"
-msgstr ""
+msgstr "اَپ زیرمجموعه"
 
 msgid "Variable urls-menus App"
-msgstr ""
+msgstr "متغیر اپلیکیشن لینکها-منوها"
 
 msgid "sample root page"
-msgstr ""
+msgstr "صفحه اصلى نمونه"
 
 msgid "sample settings page"
-msgstr ""
+msgstr "صفحه تنظيمات نمونه"
 
 msgid "sample account page"
-msgstr ""
+msgstr "صفحه حساب كاربرى نمونه"
 
 msgid "sample my profile page"
-msgstr ""
+msgstr "صفحه نمونه مشخصات من"
 
 msgid "Static Menu"
-msgstr ""
+msgstr "منوی ایستا"
 
 msgid "Static Menu2"
-msgstr ""
+msgstr "منوی ایستا ۲"
 
 msgid "Static Menu3"
-msgstr ""
+msgstr "منوی ایستا ۳"
 
 #| msgid "Static Menu"
 msgid "Static Menu4"
-msgstr ""
+msgstr "منو‌ی ایستا ۴"
 
 msgid "Category"
-msgstr ""
+msgstr "موضوع"
 
 msgid "Categories"
-msgstr ""
+msgstr "موضوعات"
 
 msgid "Add Category"
-msgstr ""
+msgstr "افزودن موضوع"
 
 msgid "^account/$"
-msgstr ""
+msgstr "^حساب كاربرى/$"
 
 msgid "Change Category"
-msgstr ""
+msgstr "تغيير موضوع"
 
 msgid "Thanks for spending some quality time with the Web site today."
-msgstr ""
+msgstr "از اینکه امروز زمان ارزشمندتان را در این وب سایت صرف کردید ممنونیم."
 
 msgid "Inherit the template of the nearest ancestor"
-msgstr ""
+msgstr "الگوی نزدیک-ترین منبع را داشته باش."
 
 msgid "UserSettings"
-msgstr ""
+msgstr "تنظیمات کاربر"
 
 #, python-format
 #| msgid "Add plugin to placeholder"
 msgid "Add plugin to placeholder \"%(placeholder_label)s\""
-msgstr ""
+msgstr "افزودن افزونه به %(placeholder_label)s"
 
 #, python-format
 #| msgid "Add plugin to placeholder"
 msgid "Add plugin to %(plugin_name)s"
-msgstr ""
+msgstr "افزودن افزونه به %(plugin_name)s"
 
 msgid "CMS - your user account was created."
-msgstr ""
+msgstr "CMS - کاربر شما ساخته‌شد."
 
 msgid "CMS - your user account was changed."
-msgstr ""
+msgstr "CMS - حساب کاربری شما تغییر کرد."
 
 #, python-format
 msgid "This placeholder already has the maximum number of plugins (%s)."
-msgstr ""
+msgstr "اين منفذ در حال حاضر داراى حداكثر تعداد افزونه ها مى باشد (%s)."
 
 #, python-format
 msgid ""
 "This placeholder already has the maximum number (%(limit)s) of allowed "
 "%(plugin_name)s plugins."
-msgstr ""
+msgstr "اين منفذ در حال حاضر داراى حداكثر تعداد(%(limit)s) پذيرفته شده ى %(plugin_name)s افزونه ها مى باشد."
 
 #, python-brace-format
 msgid "Unable to find the specified CMS_REQUEST_IP_RESOLVER module: \"{0}\"."
-msgstr ""
+msgstr "مشکل در یافتن ماژول CMS_REQUEST_IP_RESOLVER تعیین شده: \"{0}\"."
 
 #, python-brace-format
 msgid ""
 "Unable to find the specified CMS_REQUEST_IP_RESOLVER function: \"{0}\" in "
 "module \"{1}\"."
-msgstr ""
+msgstr "مشکل در یافتن تابع  CMS_REQUEST_IP_RESOLVER تعیین شده: \"{0}\" در ماژول \"{1}\"."
 
 #, python-format
 msgid "Create a new %s instance."
-msgstr ""
+msgstr "ساخت یک مثال %s جدید ."
 
 #, python-format
 msgid "A wizard has already been registered for model: %s"
-msgstr ""
+msgstr "در حال حاظر یک ویزارد ثبت شده برای : %s"
 
 #~ msgid "The current language of the content fields."
 #~ msgstr "The current language of the content fields."
