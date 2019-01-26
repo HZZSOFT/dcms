@@ -45,7 +45,38 @@ ROOT_URLCONF = 'mysite.urls'
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
-LANGUAGE_CODE = 'en'
+LANGUAGES = (
+    ## Customize this
+    ('en', gettext('en')),
+    ('fa', gettext('fa')),
+)
+
+CMS_LANGUAGES = {
+    ## Customize this
+    'default': {
+        'hide_untranslated': False,
+        'redirect_on_fallback': True,
+        'public': True,
+    },
+    1: [
+        {
+            'code': 'en',
+            'hide_untranslated': False,
+            'name': gettext('en'),
+            'public': True,
+            'redirect_on_fallback': True,
+        },
+        {
+            'code': 'fa',
+            'hide_untranslated': False,
+            'name': gettext('fa'),
+            'public': True,
+            'redirect_on_fallback': True,
+        }
+    ],
+}
+
+LANGUAGE_CODE = 'fa'
 
 TIME_ZONE = 'Asia/Tehran'
 
@@ -154,36 +185,7 @@ INSTALLED_APPS = (
     
 )
 
-LANGUAGES = (
-    ## Customize this
-    ('en', gettext('en')),
-    ('fa', gettext('fa')),
-)
 
-CMS_LANGUAGES = {
-    ## Customize this
-    'default': {
-        'hide_untranslated': False,
-        'redirect_on_fallback': True,
-        'public': True,
-    },
-    1: [
-        {
-            'code': 'en',
-            'hide_untranslated': False,
-            'name': gettext('en'),
-            'public': True,
-            'redirect_on_fallback': True,
-        },
-        {
-            'code': 'fa',
-            'hide_untranslated': False,
-            'name': gettext('fa'),
-            'public': True,
-            'redirect_on_fallback': True,
-        }
-    ],
-}
 
 CMS_TEMPLATES = (
     ## Customize this
