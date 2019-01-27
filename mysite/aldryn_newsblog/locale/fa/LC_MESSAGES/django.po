@@ -22,6 +22,12 @@ msgstr ""
 msgid "Mark selected articles as published"
 msgstr ""
 
+msgid "News & Blog"
+msgstr "خبر و بلاگ"
+
+msgid "Read More"
+msgstr "ادامه مطلب"
+
 #: admin.py:33
 msgid "Mark selected articles as not published"
 msgstr ""
@@ -263,7 +269,7 @@ msgstr ""
 
 #: cms_appconfig.py:142
 msgid "untitled"
-msgstr ""
+msgstr "خبر و بلاگ"
 
 #: cms_appconfig.py:145
 #| msgid "application title"

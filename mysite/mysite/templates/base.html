@@ -1,6 +1,8 @@
 {% load cms_tags menu_tags sekizai_tags staticfiles%}
 <!DOCTYPE html>
-<html lang="{{ LANGUAGE_CODE }}">
+<html lang="{{ LANGUAGE_CODE }}"
+	dir="{% if LANGUAGE_CODE == 'fa' %}rtl{% else %}ltr{% endif %}"
+>
 
   <head>
 
@@ -37,9 +39,6 @@
 <div class="container">
       {% cms_toolbar %}
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Blog
-        <small>Home</small>
-      </h1>
       <ol class="breadcrumb">
 
           {% show_breadcrumb %}

@@ -26,7 +26,7 @@
                             {% render_model article "lead_in" %}
 
                             {# include "aldryn_newsblog/includes/article.html" #}
-                             <a class="btn btn-primary" href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}"> Read More →</a>
+                             <a class="btn btn-primary" href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}">{% trans "Read More" %}</a>
                         </div>
                         <div class="card-footer text-muted">
                              Posted on {{ article.publishing_date|date }} by
