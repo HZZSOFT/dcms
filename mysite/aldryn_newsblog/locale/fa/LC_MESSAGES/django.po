@@ -22,6 +22,9 @@ msgstr ""
 msgid "Mark selected articles as published"
 msgstr ""
 
+msgid "Posted on"
+msgstr "منتشر شده در"
+
 msgid "News & Blog"
 msgstr "خبر و بلاگ"
 

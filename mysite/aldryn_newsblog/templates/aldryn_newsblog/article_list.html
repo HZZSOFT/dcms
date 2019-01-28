@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load i18n apphooks_config_tags cms_tags sekizai_tags staticfiles thumbnail %}
+{% load i18n apphooks_config_tags cms_tags sekizai_tags staticfiles thumbnail custom_tags%}
 
 {% block title %}{% page_attribute "page_title" %}{% endblock title %}
 
@@ -29,7 +29,7 @@
                              <a class="btn btn-primary" href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}">{% trans "Read More" %}</a>
                         </div>
                         <div class="card-footer text-muted">
-                             Posted on {{ article.publishing_date|date }} by
+                             {% trans "Posted on" %} {% to_persian  article.publishing_date LANGUAGE_CODE  %} {% trans "by" %}
 
                                 {% include "aldryn_newsblog/includes/author.html" with author=article.author %}
 
