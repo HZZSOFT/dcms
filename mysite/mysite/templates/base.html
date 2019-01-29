@@ -14,8 +14,11 @@
     <title>{% page_attribute 'page_title' %} - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
-
+	{% if LANGUAGE_CODE == 'fa' %}
+    <link href="{% static 'vendor/bootstrap/css/bootstrap-rtl.min.css' %}" rel="stylesheet">
+	{% else %}
+	<link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+	{% endif %}
     <!-- Custom styles for this template -->
     <link href="{% static 'css/modern-business.css' %}" rel="stylesheet">
     {% render_block "css" %}
